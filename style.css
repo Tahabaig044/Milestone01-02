@@ -1,9 +1,8 @@
-/* General styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth; /* Smooth scrolling for links */
+    scroll-behavior: smooth; 
     
 }
 
@@ -20,7 +19,6 @@ nav {
     justify-content: center;
 }
 
-/* Navigation button for small screens */
 .nav-toggle {
     display: none;
     background-color: #195680;
@@ -30,7 +28,6 @@ nav {
     cursor: pointer;
 }
 
-/* Navigation links */
 .nav-links {
     list-style: none;
     padding: 0;
@@ -66,7 +63,6 @@ form{
     padding: 20px;
     font-size: 100%;
 }
-/* Toggle button for mobile */
 @media (max-width: 768px) {
     .nav-links {
         display: none;
